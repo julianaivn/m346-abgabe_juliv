@@ -14,3 +14,5 @@
 
 ## Erklärung wieso Sie Fehlermeldungen kriegen oder Erklärung wie es möglich ist, dass Sie mehr Ressourcen zuteilen können als Ihr Host-System hat. Machen Sie sinnvolle Überlegungen
 
+Wenn man Fehlermeldungen bekommt, hat das Host-System nicht genug Ressourcen, um die zugewiesenen Werte zu erfüllen. 
+Manchmal kann man in virtuellen Umgebungen mehr Ressourcen zuweisen, als tatsächlich verfügbar sind. Dabei versucht das System, mit nicht vorhandenen Ressourcen zu arbeiten, was zu schlechterer Leistung oder Instabilität führen kann.
