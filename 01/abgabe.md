@@ -1,7 +1,7 @@
 # KN01 Abgabe
 
 Screenshot mit der Konsolen-Ausgabe der CPUs bei weniger CPU als Ihr Host-System hat.
-![imageOfCPU](beforeCPU .png)
+![imageOfCPU](beforeCPU.png)
 
 Screenshot mit der Konsolen-Ausgabe der CPUs (oder Fehlermeldung des Host-Systems) bei 
 mehr CPU als Ihr Host-System hat.
