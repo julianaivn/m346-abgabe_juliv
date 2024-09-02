@@ -24,7 +24,7 @@
 
 # JSON-Datei: mit der Bucket-Policy für den öffentlichen Zugriff
 
-![image](/02/fotos/JSON_LAB4.1.png)
+![image](/02/fotos/JSON_LAB4.2.png)
 
 
 
