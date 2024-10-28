@@ -20,6 +20,20 @@ packages:  # Installiert eine Liste von Paketen
 ```
 
 # b
+Ein Screenshot der Details der Instanz. Scrollen Sie so weit runter, dass das Feld "Key pair 
+assigned at launch", sichtbar ist.
+![image](/KN05/fotos/screenshotDerInstanzB.png)
+
+Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels.
+![image](/KN05/fotos/loginKey1.png)
+
+Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels.
+![image](/KN05/fotos/loginKey2.png) 
+
+Screenshot mit dem Auszug aus dem Cloud-Init-Log. Der Befehl den Sie aufgerufen haben 
+und der obere Teil des Logs sollten sichtbar sein.
+![image](/KN05/fotos/CloudInitLog.png)
+
 
 # c
 
