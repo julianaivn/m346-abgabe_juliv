@@ -34,7 +34,11 @@ Screenshot mit dem Auszug aus dem Cloud-Init-Log. Der Befehl den Sie aufgerufen 
 und der obere Teil des Logs sollten sichtbar sein.
 ![image](/KN05/fotos/CloudInitLog.png)
 
-
 # c
 
 # d
+
+![image](/KN05/fotos/indexhtml.png)
+![image](/KN05/fotos/infophp.png)
+![image](/KN05/fotos/dbphp.png)
+![image](/KN05/fotos/adminer.png)
