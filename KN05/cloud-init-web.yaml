@@ -6,13 +6,9 @@ users:
     home: /home/ubuntu
     shell: /bin/bash
     ssh_authorized_keys:
-- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCRlSzWxeGlF0wtx2UDtc19o57RghZvVjGDReiupsUUyy5W6kRhoNQDVOyjOT9zHUZiir7eFiroJ/N6jzcFpfdTM6RBrKsw6xIUmbKjIi0qPs3sLWpiniQ2tykheoxVJ0AL+sbHlhctxLjTXUsnxqXEgC0HRN9yioBDxNgx7DwFIaIDpqnzrfMVC+YWB0LVMYCfl0wI4PZQzBHLGxnSvFV6hBHE7hnCqzsz10T+SAS1Wdz7CBRZ1UzEycnFV3US4h9c6FSrJzhQalYpEuf4prjBNefskxmXyaKNqx1VbJ9WxG3nYhcmA2xKDwKAs0KCksnFboXKhJE086G12PUVjmjb aws-key
-
-- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26 +iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4
-j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqM
-vPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD
-lehrer-key
-
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCRlSzWxeGlF0wtx2UDtc19o57RghZvVjGDReiupsUUyy5W6kRhoNQDVOyjOT9zHUZiir7eFiroJ/N6jzcFpfdTM6RBrKsw6xIUmbKjIi0qPs3sLWpiniQ2tykheoxVJ0AL+sbHlhctxLjTXUsnxqXEgC0HRN9yioBDxNgx7DwFIaIDpqnzrfMVC+YWB0LVMYCfl0wI4PZQzBHLGxnSvFV6hBHE7hnCqzsz10T+SAS1Wdz7CBRZ1UzEycnFV3US4h9c6FSrJzhQalYpEuf4prjBNefskxmXyaKNqx1VbJ9WxG3nYhcmA2xKDwKAs0KCksnFboXKhJE086G12PUVjmjb aws-key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD lehrer-key
+      
 ssh_pwauth: false
 disable_root: false
 package_update: true
@@ -28,7 +24,7 @@ write_files:
     content: |
       <?php
       //database
-      $servername = "18.234.246.162";
+      $servername = "172.31.35.11";
       $username = "admin";
       $password = "password";
       $dbname = "mysql";
